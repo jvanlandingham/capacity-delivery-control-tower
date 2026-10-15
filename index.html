@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simulated data-center capacity delivery control tower integrating Power BI, Power Query, and AI-assisted investigation governance.">
+  <title>Capacity Delivery Control Tower | Portfolio Case Study</title>
+  <style>
+    :root {
+      --navy: #102b49;
+      --blue: #1769aa;
+      --ink: #203044;
+      --muted: #607186;
+      --line: #dce4ec;
+      --bg: #f4f7fa;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+    .container { width: min(1120px, 92%); margin: auto; }
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 74px 0 60px;
+    }
+    .eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #a9c9e6;
+    }
+    h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.12; margin: 18px 0; }
+    h2 { font-size: clamp(26px, 3vw, 34px); line-height: 1.2; margin: 0 0 18px; }
+    h3 { margin-bottom: 8px; }
+    .intro { max-width: 760px; font-size: 19px; color: #d9e6f3; }
+    .disclosure { font-size: 13px; color: #c4d4e2; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 34px;
+    }
+    .metric {
+      background: #234663;
+      border-radius: 9px;
+      padding: 20px;
+    }
+    .metric strong { display: block; font-size: 29px; color: white; }
+    .metric span { font-size: 13px; color: #d9e6f3; }
+    nav { background: white; border-bottom: 1px solid var(--line); }
+    .nav-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding: 15px 0;
+    }
+    nav a { color: var(--navy); text-decoration: none; font-size: 14px; font-weight: bold; }
+    nav a:hover { color: var(--blue); }
+    main section {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: clamp(22px, 4vw, 44px);
+      margin: 32px 0;
+    }
+    .lead { font-size: 18px; max-width: 850px; color: #43566c; }
+    .screenshot {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin: 24px 0 10px;
+    }
+    figcaption { font-size: 13px; color: var(--muted); }
+    figure { margin: 0; }
+    .highlight {
+      border-left: 4px solid var(--blue);
+      background: #edf5fc;
+      padding: 18px 22px;
+      margin: 24px 0;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .tag {
+      display: inline-block;
+      background: #e7f0f8;
+      color: var(--navy);
+      padding: 5px 10px;
+      margin: 4px 4px 4px 0;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+    footer {
+      background: var(--navy);
+      color: #d9e6f3;
+      padding: 34px 0;
+      margin-top: 50px;
+    }
+    @media (max-width: 700px) {
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .columns { grid-template-columns: 1fr; }
+      header { padding: 48px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="eyebrow">Data Center Infrastructure · Portfolio Intelligence</div>
+      <h1>Capacity Delivery<br>Control Tower</h1>
+      <p class="intro">An executive decision-support system connecting capacity commitments, delivery risk, management accountability, source-data reconciliation, and AI-assisted investigation governance.</p>
+      <div class="metrics">
+        <div class="metric"><strong>544 MW</strong><span>Approved capacity</span></div>
+        <div class="metric"><strong>112 MW</strong><span>Capacity at risk</span></div>
+        <div class="metric"><strong>15</strong><span>Projects monitored</span></div>
+        <div class="metric"><strong>45</strong><span>Milestone checks</span></div>
+      </div>
+      <p class="disclosure">Independent portfolio demonstration · Entirely simulated data · Reporting date: October 13, 2026</p>
+    </div>
+  </header>
+
+  <nav aria-label="Case study sections">
+    <div class="container nav-inner">
+      <a href="#executive">Executive View</a>
+      <a href="#regional">Regional Risk</a>
+      <a href="#actions">Decisions</a>
+      <a href="#quality">Data Quality</a>
+      <a href="#ai">AI Governance</a>
+      <a href="#architecture">Architecture</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="executive">
+      <div class="eyebrow">01 / Executive Portfolio Intelligence</div>
+      <h2>From Delivery Updates to Executive Decisions</h2>
+      <p class="lead">The control tower consolidates a simulated 15-project, 544 MW data-center delivery portfolio into a unified view of capacity commitments, schedule exposure, and priority investigations.</p>
+      <figure>
+        <img class="screenshot" src="assets/executive-review.png" alt="Executive Power BI dashboard showing 544 MW of capacity, 112 MW at risk, and a cumulative baseline versus forecast chart" loading="lazy">
+        <figcaption>Executive Portfolio Review — simulated portfolio as of October 13, 2026.</figcaption>
+      </figure>
+      <div class="highlight"><strong>Executive finding:</strong> 112 MW (20.6%) of approved capacity is at risk across three projects, with one overdue critical investigation requiring leadership attention.</div>
+    </section>
+
+    <section id="regional">
+      <div class="eyebrow">02 / Regional Delivery Performance</div>
+      <h2>Where Delivery Exposure Is Concentrated</h2>
+      <p class="lead">Regional reporting translates milestone delays into capacity exposure and identifies projects requiring escalation.</p>
+      <figure>
+        <img class="screenshot" src="assets/regional-performance.png" alt="Regional delivery dashboard showing 64 MW at risk in the Mid-Atlantic and 48 MW in the Northwest" loading="lazy">
+        <figcaption>Regional risk concentration and project-level intervention list.</figcaption>
+      </figure>
+      <div class="highlight"><strong>Management finding:</strong> Two projects representing 72 MW of at-risk capacity lack recorded RFS investigations and require escalation.</div>
+    </section>
+
+    <section id="actions">
+      <div class="eyebrow">03 / Management Accountability</div>
+      <h2>Turning Risk Into Accountable Action</h2>
+      <p class="lead">An executive action register links required interventions to project owners, deadlines, investigation status, and escalation needs.</p>
+      <figure>
+        <img class="screenshot" src="assets/portfolio-actions.png" alt="Portfolio Decisions and Actions dashboard with five executive actions, owners, due dates, and escalation statuses" loading="lazy">
+        <figcaption>Executive action pipeline and accountability register.</figcaption>
+      </figure>
+      <div class="highlight"><strong>Control finding:</strong> Five executive actions include an overdue critical investigation and two missing RFS investigations requiring initiation and due-date assignment.</div>
+    </section>
+
+    <section id="quality">
+      <div class="eyebrow">04 / Data Quality and Reconciliation</div>
+      <h2>Establishing Confidence in Delivery Data</h2>
+      <p class="lead">The reporting framework identifies inconsistencies across milestone forecasts, project status, capacity submissions, and reporting freshness.</p>
+      <figure>
+        <img class="screenshot" src="assets/data-quality.png" alt="Data Quality dashboard displaying eight open issues, three source conflicts, and partner schedule reconciliation" loading="lazy">
+        <figcaption>Data-quality exceptions, approved-forecast reconciliation, and investigation tracking.</figcaption>
+      </figure>
+      <div class="columns">
+        <div><h3>Cross-source validation</h3><p>Compares the milestone dates reported by internal delivery, general contractors, and developers.</p></div>
+        <div><h3>Approved-forecast reconciliation</h3><p>Separately compares submitted milestone dates against approved portfolio forecasts.</p></div>
+      </div>
+      <div class="highlight"><strong>Control finding:</strong> Eight open data-quality issues were identified across five categories, including three source conflicts and one critical milestone-sequence issue.</div>
+    </section>
+
+    <section id="ai">
+      <div class="eyebrow">05 / AI-Assisted Validation</div>
+      <h2>Evidence-Backed AI With Human Oversight</h2>
+      <p class="lead">Power Query evaluates 45 project/milestone combinations using a configurable seven-day threshold. Conflicts are linked to Copilot-assisted investigation drafts and human-review decisions.</p>
+      <figure>
+        <img class="screenshot" src="assets/ai-validation.png" alt="AI Validation dashboard linking three source conflicts to investigation briefs and human review decisions" loading="lazy">
+        <figcaption>Three detected conflicts: 12, 14, and 18 days. One brief needs revision; two await review.</figcaption>
+      </figure>
+      <div class="highlight"><strong>Governance principle:</strong> AI-generated findings are not authoritative until source evidence is independently validated and a human reviewer approves the conclusion.</div>
+    </section>
+
+    <section id="architecture">
+      <div class="eyebrow">06 / Technical Design and Validation</div>
+      <h2>How the Control System Works</h2>
+      <p class="lead">Structured source data, configurable Power Query rules, Power BI reporting, and Copilot-assisted investigation drafting form an evidence-backed workflow.</p>
+      <div class="columns">
+        <div>
+          <h3>Technical components</h3>
+          <span class="tag">Power BI</span>
+          <span class="tag">DAX</span>
+          <span class="tag">Excel Tables</span>
+          <span class="tag">Power Query / M</span>
+          <span class="tag">Microsoft Copilot</span>
+          <span class="tag">Point-in-time reporting</span>
+        </div>
+        <div>
+          <h3>Controlled tests</h3>
+          <p><strong>Dynamic detection:</strong> A simulated source change increased conflicts from three to four; restoration returned the count to three.</p>
+          <p><strong>Historical cutoff:</strong> A later-received submission was excluded from the October 13 snapshot and included when the cutoff advanced to October 21.</p>
+        </div>
+      </div>
+      <p><strong>Implementation boundary:</strong> Validation is refresh-driven, Copilot drafts are prompt-triggered, and the project is a simulation rather than a production deployment. Reproducible historical reporting depends on preserving submission history.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <strong>Capacity Delivery Control Tower</strong>
+      <p>Independent technical portfolio project · All data and outcomes simulated.</p>
+    </div>
+  </footer>
+</body>
+</html>
