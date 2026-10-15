@@ -138,7 +138,8 @@
       <a href="#actions">Decisions</a>
       <a href="#quality">Data Quality</a>
       <a href="#ai">AI Governance</a>
-      <a href="#architecture">Architecture</a>
+     <a href="#data-flow">Data Flow</a>
+      <a href="#architecture">Technical Details</a>
     </div>
   </nav>
 
@@ -201,7 +202,48 @@
       </figure>
       <div class="highlight"><strong>Governance principle:</strong> AI-generated findings are not authoritative until source evidence is independently validated and a human reviewer approves the conclusion.</div>
     </section>
+<section id="data-flow">
+  <div class="eyebrow">06 / System Architecture</div>
 
+  <h2>How the Data Is Managed and
+      What Tools Were Used</h2>
+
+  <p class="lead">
+    The Capacity Delivery Control Tower integrates
+    structured Excel source submissions, Power Query
+    validation rules, Power BI portfolio reporting,
+    and Microsoft Copilot-assisted investigation
+    drafting within a human-governed workflow.
+  </p>
+
+  <figure>
+    <img
+      class="screenshot"
+      src="assets/control-tower-architecture.png"
+      alt="Five-stage Capacity Delivery Control Tower
+           architecture showing source data inputs,
+           Excel and Power Query validation,
+           Power BI data modeling and dashboards,
+           Microsoft Copilot investigation drafting,
+           and human review."
+      loading="lazy"
+    >
+    <figcaption>
+      End-to-end architecture of the simulated
+      Capacity Delivery Control Tower.
+      Reporting snapshot: October 13, 2026.
+    </figcaption>
+  </figure>
+
+  <div class="highlight">
+    <strong>Design principle:</strong>
+    Source traceability, configurable validation,
+    point-in-time reporting, and human approval
+    provide governance across the workflow.
+    AI-assisted findings remain subject to
+    independent review.
+  </div>
+</section>
     <section id="architecture">
       <div class="eyebrow">06 / Technical Design and Validation</div>
       <h2>How the Control System Works</h2>
